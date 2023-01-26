@@ -1,1 +1,0 @@
-{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["import { PrismaClient } from \"../prisma\";\r\n\r\nexport interface Context {\r\n  uid: string | null;\r\n  prisma: PrismaClient;\r\n}\r\n\r\nexport interface AuthorizedContext extends Context {\r\n  uid: string;\r\n}\r\n"]},"metadata":{},"sourceType":"module"}
